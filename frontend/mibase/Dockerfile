@@ -1,5 +1,5 @@
-# Usa una imagen base de Node.js
-FROM node:16
+# Usa una imagen base de Node.js compatible con Angular CLI
+FROM node:18
 
 # Establece el directorio de trabajo dentro del contenedor
 WORKDIR /app
